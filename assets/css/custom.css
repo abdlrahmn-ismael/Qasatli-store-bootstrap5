@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap');/*======== RTL Direction ==========*/
+body[dir="rtl"]{
+    font-family: 'Cairo', sans-serif;
+}
+body[dir="rtl"] .newsletter_form2 button{
+    top: 2px;
+    left: 2px;
+}
+
+
+body .carousel-control-next{
+    left: auto !important;
+    right: 20px !important;
+    background: #659430;
+}
