@@ -226,14 +226,14 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="page-title">
-                        <h1>تسجيل الدخول</h1>
+                        <h1>انشاء حساب جديد</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb justify-content-md-end">
                         <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
                         <li class="breadcrumb-item"><a href="index.html">الصفحات</a></li>
-                        <li class="breadcrumb-item active">تسجيل الدخول</li>
+                        <li class="breadcrumb-item active">انشاء حساب </li>
                     </ol>
                 </div>
             </div>
@@ -251,34 +251,39 @@
                         <div class="login_wrap">
                             <div class="padding_eight_all bg-white">
                                 <div class="heading_s1">
-                                    <h3>تسجيل الدخول</h3>
+                                    <h3>انشاء حساب جديد</h3>
                                 </div>
                                 <form method="post">
                                     <div class="form-group mb-3">
+                                        <input type="text" required="" class="form-control" name="name"
+                                            placeholder="ادخل الاسم ">
+                                    </div>
+                                    <div class="form-group mb-3">
                                         <input type="text" required="" class="form-control" name="email"
-                                            placeholder="بريدك الاليكتروني">
+                                            placeholder="ادخل بريدك الاليكتروني">
                                     </div>
                                     <div class="form-group mb-3">
                                         <input class="form-control" required="" type="password" name="password"
-                                            placeholder="كلمة المرور">
+                                            placeholder="ادخل كلمة المرور">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input class="form-control" required="" type="password" name="password"
+                                            placeholder="تاكيد كلمة المرور">
                                     </div>
                                     <div class="login_footer form-group mb-3">
                                         <div class="chek-form">
                                             <div class="custome-checkbox">
                                                 <input class="form-check-input" type="checkbox" name="checkbox"
-                                                    id="exampleCheckbox1" value="">
-                                                <label class="form-check-label" for="exampleCheckbox1"><span>
-                                                    
-                                                    تذكرني
+                                                    id="exampleCheckbox2" value="">
+                                                <label class="form-check-label" for="exampleCheckbox2"><span>
+                                                    اوافق علي الشروط و الاحكام
                                                     </span></label>
                                             </div>
                                         </div>
-                                        <a href="#">نسيت كلمة المرور ؟ </a>
                                     </div>
                                     <div class="form-group mb-3">
-                                        <button type="submit" class="btn btn-fill-out btn-block" name="login">
-                                            ادخال
-                                        </button>
+                                        <button type="submit" class="btn btn-fill-out btn-block"
+                                            name="register">تسجيل</button>
                                     </div>
                                 </form>
                                 <div class="different_login">
@@ -290,15 +295,17 @@
                                     <li><a href="#" class="btn btn-google"><i
                                                 class="ion-social-googleplus"></i>Google</a></li>
                                 </ul>
-                                <div class="form-note text-center">لا تملك حساب بعد ؟  <a href="signup.html">
-                                    سجل حسابك معنا الان
-                                    </a></div>
+                                <div class="form-note text-center">تمتلك حساب بالفعل ؟ <a href="login.html">
+                                    سجل الدخول الان    
+                                </a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
 
         <!-- START SECTION SUBSCRIBE NEWSLETTER -->
@@ -324,7 +331,6 @@
             </div>
         </div>
         <!-- START SECTION SUBSCRIBE NEWSLETTER -->
-
 
     </div>
     <!-- END MAIN CONTENT -->

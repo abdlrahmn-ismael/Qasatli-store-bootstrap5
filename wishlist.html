@@ -226,14 +226,14 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="page-title">
-                        <h1>تسجيل الدخول</h1>
+                        <h1>المنتجات المفضلة</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb justify-content-md-end">
                         <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
                         <li class="breadcrumb-item"><a href="index.html">الصفحات</a></li>
-                        <li class="breadcrumb-item active">تسجيل الدخول</li>
+                        <li class="breadcrumb-item active">المفضلة </li>
                     </ol>
                 </div>
             </div>
@@ -244,61 +244,56 @@
     <!-- START MAIN CONTENT -->
     <div class="main_content">
 
-        <div class="login_register_wrap section">
+        <div class="section">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-md-10">
-                        <div class="login_wrap">
-                            <div class="padding_eight_all bg-white">
-                                <div class="heading_s1">
-                                    <h3>تسجيل الدخول</h3>
-                                </div>
-                                <form method="post">
-                                    <div class="form-group mb-3">
-                                        <input type="text" required="" class="form-control" name="email"
-                                            placeholder="بريدك الاليكتروني">
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <input class="form-control" required="" type="password" name="password"
-                                            placeholder="كلمة المرور">
-                                    </div>
-                                    <div class="login_footer form-group mb-3">
-                                        <div class="chek-form">
-                                            <div class="custome-checkbox">
-                                                <input class="form-check-input" type="checkbox" name="checkbox"
-                                                    id="exampleCheckbox1" value="">
-                                                <label class="form-check-label" for="exampleCheckbox1"><span>
-                                                    
-                                                    تذكرني
-                                                    </span></label>
-                                            </div>
-                                        </div>
-                                        <a href="#">نسيت كلمة المرور ؟ </a>
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <button type="submit" class="btn btn-fill-out btn-block" name="login">
-                                            ادخال
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="different_login">
-                                    <span> or</span>
-                                </div>
-                                <ul class="btn-login list_none text-center">
-                                    <li><a href="#" class="btn btn-facebook"><i
-                                                class="ion-social-facebook"></i>Facebook</a></li>
-                                    <li><a href="#" class="btn btn-google"><i
-                                                class="ion-social-googleplus"></i>Google</a></li>
-                                </ul>
-                                <div class="form-note text-center">لا تملك حساب بعد ؟  <a href="signup.html">
-                                    سجل حسابك معنا الان
-                                    </a></div>
-                            </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive wishlist_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="product-thumbnail">&nbsp;</th>
+                                        <th class="product-name">Product</th>
+                                        <th class="product-price">Price</th>
+                                        <th class="product-stock-status">Stock Status</th>
+                                        <th class="product-add-to-cart"></th>
+                                        <th class="product-remove">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#"><img src="assets/images/screen.jpg" alt="product1"></a></td>
+                                        <td class="product-name" data-title="Product"><a href="#">شاشة سمارت 52 بوصة </a></td>
+                                        <td class="product-price" data-title="Price">$45.00</td>
+                                          <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
+                                        <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
+                                        <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#"><img src="assets/images/mobile.jpg" alt="product2"></a></td>
+                                        <td class="product-name" data-title="Product"><a href="#">موبيل سامسونج A10</a></td>
+                                        <td class="product-price" data-title="Price">$55.00</td>
+                                          <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
+                                        <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
+                                        <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#"><img src="assets/images/fan.jpg" alt="product3"></a></td>
+                                        <td class="product-name" data-title="Product"><a href="#">مروحة توشيبا</a></td>
+                                        <td class="product-price" data-title="Price">$68.00</td>
+                                          <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
+                                        <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
+                                        <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
 
         <!-- START SECTION SUBSCRIBE NEWSLETTER -->
@@ -324,7 +319,6 @@
             </div>
         </div>
         <!-- START SECTION SUBSCRIBE NEWSLETTER -->
-
 
     </div>
     <!-- END MAIN CONTENT -->
