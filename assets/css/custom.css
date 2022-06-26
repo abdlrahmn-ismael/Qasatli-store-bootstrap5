@@ -8,8 +8,12 @@ body[dir="rtl"] .newsletter_form2 button{
 }
 
 
+/*=========== Customize style =========*/
 body .carousel-control-next{
     left: auto !important;
     right: 20px !important;
     background: #659430;
+}
+.navbar-brand img{
+    width: 160px;
 }
