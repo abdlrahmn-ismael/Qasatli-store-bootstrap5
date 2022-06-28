@@ -166,7 +166,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li><a class="nav-link nav_item" href="index.html">الرئيسة</a></li>
+                            <li><a class="nav-link nav_item" href="/">الرئيسة</a></li>
                             <li><a class="nav-link nav_item" href="about.html">المزيد عنا</a></li>
                             <li><a class="nav-link nav_item" href="contact.html">تواصل معنا</a></li>
                         </ul>
@@ -226,14 +226,14 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="page-title">
-                        <h1>المزيد عنا</h1>
+                        <h1>ادارة حسابي</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb justify-content-md-end">
                         <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
                         <li class="breadcrumb-item"><a href="index.html">الصفحات</a></li>
-                        <li class="breadcrumb-item active">المزيد عنا</li>
+                        <li class="breadcrumb-item active">حسابي/li>
                     </ol>
                 </div>
             </div>
@@ -244,171 +244,153 @@
     <!-- START MAIN CONTENT -->
     <div class="main_content">
 
-        <!-- STAT SECTION ABOUT -->
         <div class="section">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about_img scene mb-4 mb-lg-0">
-                            <img src="assets/images/about_img.jpg" alt="about_img">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="dashboard_menu">
+                            <ul class="nav nav-tabs flex-column" role="tablist">
+                              <li class="nav-item">
+                                <a class="nav-link active" id="dashboard-tab" data-bs-toggle="tab" href="#dashboard" role="tab" aria-controls="dashboard" aria-selected="false"><i class="ti-layout-grid2"></i>لوحة التحكم</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="orders-tab" data-bs-toggle="tab" href="#orders" role="tab" aria-controls="orders" aria-selected="false"><i class="ti-shopping-cart-full"></i>الطلبيات</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="address-tab" data-bs-toggle="tab" href="#address" role="tab" aria-controls="address" aria-selected="true"><i class="ti-location-pin"></i>عنواني</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="account-detail-tab" data-bs-toggle="tab" href="#account-detail" role="tab" aria-controls="account-detail" aria-selected="true"><i class="ti-id-badge"></i>تفاصيل حسابي</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="login.html"><i class="ti-lock"></i>تسجيل الخروج</a>
+                              </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="heading_s1">
-                            <h2>من نحن </h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur quibusdam enim expedita
-                            sed nesciunt incidunt accusamus adipisci officia libero laboriosam!</p>
-                        <p>Proin gravida nibh vel velit auctor aliquet. nec sagittis sem nibh id elit. Duis sed odio sit
-                            amet nibh vultate cursus a sit amet mauris. Duis sed odio sit amet nibh vultate cursus a sit
-                            amet mauris.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END SECTION ABOUT -->
-
-        <!-- START SECTION WHY CHOOSE -->
-        <div class="section bg_light_blue2 pb_70">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="heading_s1 text-center">
-                            <h2>لماذا تختارنا</h2>
-                        </div>
-                        <p class="text-center leads">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore.
-                        </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon_box icon_box_style4 box_shadow1">
-                            <div class="icon">
-                                <i class="ti-pencil-alt"></i>
-                            </div>
-                            <div class="icon_box_content">
-                                <h5>Creative Design</h5>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon_box icon_box_style4 box_shadow1">
-                            <div class="icon">
-                                <i class="ti-layers"></i>
-                            </div>
-                            <div class="icon_box_content">
-                                <h5>Flexible Layouts</h5>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon_box icon_box_style4 box_shadow1">
-                            <div class="icon">
-                                <i class="ti-email"></i>
-                            </div>
-                            <div class="icon_box_content">
-                                <h5>Email Marketing</h5>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END SECTION WHY CHOOSE -->
-
-        <!-- START SECTION TEAM -->
-        <div class="section pb_70">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="heading_s1 text-center">
-                            <h2>اعضاء فريقنا</h2>
-                        </div>
-                        <p class="text-center leads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team_box team_style1">
-                            <div class="team_img">
-                                <img src="assets/images/team/avatar.jpg" alt="team_img1">
-                                <ul class="social_icons social_style1">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team_content text-center">
-                                <div class="team_title">
-                                    <h5>احمد محمد</h5>
-                                    <span>ادارة اعمال</span>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="tab-content dashboard_content">
+                              <div class="tab-pane fade active show" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>لوحة التحكم</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>
+                                            من لوحة تحكم حسابك. يمكنك بسهولة التحقق من طلباتك الأخيرة وعرضها ، وإدارة عناوين الشحن والفوترة وتعديل كلمة المرور وتفاصيل الحساب.
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="orders" role="tabpanel" aria-labelledby="orders-tab">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Orders</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>الطلب</th>
+                                                        <th>المعاد</th>
+                                                        <th>الحالة</th>
+                                                        <th>الاجمالي</th>
+                                                        <th>Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>#1234</td>
+                                                        <td>March 15, 2020</td>
+                                                        <td>Processing</td>
+                                                        <td>$78.00 for 1 item</td>
+                                                        <td><a href="#" class="btn btn-fill-out btn-sm">View</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#2366</td>
+                                                        <td>June 20, 2020</td>
+                                                        <td>Completed</td>
+                                                        <td>$81.00 for 1 item</td>
+                                                        <td><a href="#" class="btn btn-fill-out btn-sm">View</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card mb-3 mb-lg-0">
+                                            <div class="card-header">
+                                                <h3>عنوان وصول الفواتير</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <address>House #15<br>Road #1<br>Block #C <br>Angali <br> Vedora <br>1212</address>
+                                                <p>New York</p>
+                                                <a href="#" class="btn btn-fill-out">Edit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h3>عنوان الشحن</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <address>House #15<br>Road #1<br>Block #C <br>Angali <br> Vedora <br>1212</address>
+                                                <p>New York</p>
+                                                <a href="#" class="btn btn-fill-out">Edit</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team_box team_style1">
-                            <div class="team_img">
-                                <img src="assets/images/team/avatar.jpg" alt="team_img2">
-                                <ul class="social_icons social_style4">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team_content text-center">
-                                <div class="team_title">
-                                    <h5>احمد محمد</h5>
-                                    <span>ادارة اعمال</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team_box team_style1">
-                            <div class="team_img">
-                                <img src="assets/images/team/avatar.jpg" alt="team_img3">
-                                <ul class="social_icons social_style4">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team_content text-center">
-                                <div class="team_title">
-                                    <h5>احمد محمد</h5>
-                                    <span>ادارة اعمال</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team_box team_style1">
-                            <div class="team_img">
-                                <img src="assets/images/team/avatar.jpg" alt="team_img4">
-                                <ul class="social_icons social_style4">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team_content text-center">
-                                <div class="team_title">
-                                    <h5>احمد محمد</h5>
-                                    <span>ادارة اعمال</span>
+                            <div class="tab-pane fade" id="account-detail" role="tabpanel" aria-labelledby="account-detail-tab">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>تفاصيل الحساب</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>هل لديك حساب؟ <a href="#">تسجيل الدخول بدلا من ذلك!</a></p>
+                                        <form method="post" name="enq">
+                                            <div class="row">
+                                                <div class="form-group col-md-6 mb-3">
+                                                    <label>الاسم الاول <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="name" type="text">
+                                                 </div>
+                                                 <div class="form-group col-md-6 mb-3">
+                                                    <label>الاسم الاخير  <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="phone">
+                                                </div>
+                                                <div class="form-group col-md-12 mb-3">
+                                                    <label>اسم العرض <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="dname" type="text">
+                                                </div>
+                                                <div class="form-group col-md-12 mb-3">
+                                                    <label>البريد الاليكتروني <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="email" type="email">
+                                                </div>
+                                                <div class="form-group col-md-12 mb-3">
+                                                    <label>كلمة المرور الحالية <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="password" type="password">
+                                                </div>
+                                                <div class="form-group col-md-12 mb-3">
+                                                    <label>كلمة السر الجديدة <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="npassword" type="password">
+                                                </div>
+                                                <div class="form-group col-md-12 mb-3">
+                                                    <label>تأكيد كلمة المرور <span class="required">*</span></label>
+                                                    <input required="" class="form-control" name="cpassword" type="password">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <button type="submit" class="btn btn-fill-out" name="submit" value="Submit">حفظ</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -416,196 +398,6 @@
                 </div>
             </div>
         </div>
-        <!-- END SECTION TEAM -->
-
-        <!-- START SECTION TESTIMONIAL -->
-        <div class="section bg_redon">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <div class="heading_s1 text-center">
-                            <h2>اراء العملاء عنا</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="testimonial_wrap testimonial_style1 carousel_slider owl-carousel owl-theme nav_style2 owl-loaded owl-drag"
-                            data-nav="true" data-dots="false" data-center="true" data-loop="true" data-autoplay="true"
-                            data-items="1">
-
-
-
-
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage"
-                                    style="transition: all 0.25s ease 0s; width: 5640px; transform: translate3d(-3525px, 0px, 0px);">
-                                    <div class="owl-item cloned" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img3.jpg" alt="user_img3">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Daisy Lana</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img4.jpg" alt="user_img4">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>John Becker</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img1.jpg" alt="user_img1">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Lissa Castro</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img2.jpg" alt="user_img2">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Alden Smith</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img3.jpg" alt="user_img3">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Daisy Lana</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item active center" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img4.jpg" alt="user_img4">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>John Becker</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img1.jpg" alt="user_img1">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Lissa Castro</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 705px;">
-                                        <div class="testimonial_box">
-                                            <div class="testimonial_desc">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
-                                                    amet animi blanditiis consequatur debitis dicta distinctio, enim
-                                                    error eum iste libero modi nam natus perferendis possimus quasi sint
-                                                    sit tempora voluptatem.</p>
-                                            </div>
-                                            <div class="author_wrap">
-                                                <div class="author_img">
-                                                    <img src="assets/images/user_img2.jpg" alt="user_img2">
-                                                </div>
-                                                <div class="author_name">
-                                                    <h6>Alden Smith</h6>
-                                                    <span>Designer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
-                                        class="ion-ios-arrow-left"></i></button><button type="button"
-                                    role="presentation" class="owl-next"><i class="ion-ios-arrow-right"></i></button>
-                            </div>
-                            <div class="owl-dots disabled"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END SECTION TESTIMONIAL -->
-
 
 
         <!-- START SECTION SUBSCRIBE NEWSLETTER -->
