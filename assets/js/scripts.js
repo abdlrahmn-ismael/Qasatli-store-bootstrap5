@@ -1,6 +1,6 @@
 /*===================================
 Author       : Bestwebcreator.
-Template Name: Shopwise - eCommerce Bootstrap 5 HTML Template
+Template Name: Qasatli Store | قسطلي 
 Version      : 1.3
 ===================================*/
 

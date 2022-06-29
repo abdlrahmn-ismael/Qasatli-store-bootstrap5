@@ -7,6 +7,17 @@ body[dir="rtl"] .newsletter_form2 button{
     left: 2px;
 }
 
+body::-webkit-scrollbar {
+    background-color: #2a8e8238;
+    width: 7px;
+    right: -10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #86c441;
+    border-radius: 8px;
+    right: -10px;
+  }
 
 /*=========== Customize style =========*/
 body .carousel-control-next{
