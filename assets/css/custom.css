@@ -28,3 +28,25 @@ body .carousel-control-next{
 .navbar-brand img{
     width: 160px;
 }
+/*========= Absolute Icons ========*/
+#absolute-icons .contact-icons {
+    z-index: 999999999;
+    position: fixed;
+    bottom: 8%;
+    left: 2%;
+}
+#absolute-icons .contact-icons a {
+    display: block;
+    margin: 20px 0px;
+}
+#absolute-icons .contact-icons a img {
+    width: 40px;
+}
+/*=================*/
+.footer_payment img{
+    height: 30px;
+}
+/*========= Compare Page ========*/
+.compare_box table tr td{
+    width: 20%;
+}
